@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: coral;
+        }
+
+
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > h1{
+            text-align: center;
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer > p{
+            margin: 0;
+        }
+
+        article{
+            background-color: lightblue;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: lightcoral;
+        }
+
+        nav{
+            padding: 3px;
+            background-color: lightblue;
+            box-shadow: 3px 4px 3px 1px rgba(0, 0, 0, 0.368);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            color: lightcoral;
+            text-decoration: underline;
+        }
+
+        div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: aliceblue;
+            margin: 10px;
+            border-radius: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Basil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dolore perspiciatis reprehenderit quos labore, officia molestias quaerat, maiores temporibus laborum enim suscipit doloribus praesentium ipsam repellendus rem. Est, repellat perspiciatis.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Crusoemvideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

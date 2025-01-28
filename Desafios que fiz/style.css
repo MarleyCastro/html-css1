@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: adroid;
+    src: url(fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: colvetica;
+    src: url(fontes/coolvetica/coolvetica\ compressed\ hv.otf);
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color:  #84E1AD;
+}
+
+header{
+    background-image: linear-gradient(to top, #1B5936, #41D976);
+    padding: 10px;
+}
+
+body > h1{
+    background-attachment: fixed;
+    color: white;
+}
+header > h1{
+    font-family: colvetica;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+div{
+    text-align: center;
+    height: 100px;
+    height: 50px;
+    color: white;
+    font-size: large;
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgb(0, 207, 207);
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+}
+
+nav > a:hover{
+    color: #2bd976;
+}
+
+article{
+    background-color: azure;
+    margin: 50px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+h2{
+    font-family: adroid;
+    color: #1B5936;
+    background-image: linear-gradient(to right, #2bd9766b, white);
+}
+
+p {
+    text-indent: 20px;
+}
+
+img{
+    margin: 0;
+    padding: 10%;
+    ;
+}
