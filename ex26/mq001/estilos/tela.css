@@ -1,0 +1,36 @@
+/* Estilo para telas */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: lightslategray;
+}
+
+header > h1{
+    text-align: center;
+    color: white;
+}
+
+menu li{
+    display: inline-block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+menu ul{
+    background-color: darkgray;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
